@@ -9,7 +9,7 @@ seo:
   name: Data 8 Fall 2022
 ---
 
-# Data 8:Foundations of Data Science
+# Data 8: Foundations of Data Science
 
 {: .mb-2 }
 UC Berkeley, Fall 2022
