@@ -21,7 +21,7 @@ UC Berkeley, Fall 2022
   {% for staffer in instructors %}
   {{ staffer }}
   {% endfor %}
-</div>-
+</div>
 
 ## Announcements
 

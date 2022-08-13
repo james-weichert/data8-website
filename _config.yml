@@ -29,10 +29,16 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  FAQ:
+    - ''
+  Office Hours:
+    - ''
+  Policies:
+    - 'Staff'
+  Resources:
+    - ''
   Ed:
     - 'https://edstem.org/us/courses/22794/discussion/'
-  Gradescope:
-    - 'https://www.gradescope.com/courses/402405'
 footer_content:
 
 # Collections for website data
