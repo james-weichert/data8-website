@@ -1,0 +1,356 @@
+{"0": {
+    "doc": "ReadMe",
+    "title": "Introduction to Computational Thinking with Data",
+    "content": "UC Berkeley . ",
+    "url": "http://localhost:4000/su22/README/#introduction-to-computational-thinking-with-data",
+    "relUrl": "/README/#introduction-to-computational-thinking-with-data"
+  },"1": {
+    "doc": "ReadMe",
+    "title": "Offerings",
+    "content": ". | Summer 2022 | Summer 2021 | Spring 2021 | . From the course catalog: This course is an introduction to computational thinking and quantitative reasoning, designed to prepare students for further coursework in data science, computer science, and statistics (in particular, Foundations of Data Science, Data C8). This course emphasizes the use of computation to gain insight about quantitative problems with real data from the social sciences. ",
+    "url": "http://localhost:4000/su22/README/#offerings",
+    "relUrl": "/README/#offerings"
+  },"2": {
+    "doc": "ReadMe",
+    "title": "ReadMe",
+    "content": " ",
+    "url": "http://localhost:4000/su22/README/",
+    "relUrl": "/README/"
+  },"3": {
+    "doc": "Announcements",
+    "title": "Announcements",
+    "content": "Announcements are stored in the _announcements directory and rendered according to the layout file, _layouts/announcement.html. ",
+    "url": "http://localhost:4000/su22/announcements/",
+    "relUrl": "/announcements/"
+  },"4": {
+    "doc": "Announcements",
+    "title": "Week 2 Announcements",
+    "content": "Jul 11 &middot; 1 min read Congratulations on finishing your week of Data 6! Here are this week’s announcements: . | Homework 1 and Survey 1 have been released and will be due on Friday (7/15) at 11 PM (we extended the deadline by a day) . | If you are having issues accessing the homework assignment, post on Ed or come to office hours | . | Office Hours are on Tuesdays and Thursdays 1-3 PM in Evans 6 . | Office hours are a great opportunity to ask questions about difficult concepts or to get help with assignments | You can also post any assignment or conceptual questions on Ed | . | James will be holding Coffee Chats at Caffe Strada on Fridays at 9am. These are completely optional but you’re welcome to come if you want to ask conceptual questions about Data 6 or ask any questions about life at Berkeley, the Data Science major, or more! | . ",
+    "url": "http://localhost:4000/su22/announcements/",
+    "relUrl": "/announcements/"
+  },"5": {
+    "doc": "Exam Cheat Sheet",
+    "title": "Data 6 Python Cheat Sheet",
+    "content": "This cheat sheet has been modified from the Data 6 Python Reference and includes all of the functions and table methods that you will need for Quiz 1. Built-In Python Functions . | Function | Description | Input | Output | . | str(val) | Converts val to a string | A value of any type (int, float, NoneType, etc.) | The value as a string | . | int(num) | Converts num to an int | A numerical value | The value as an int | . | float(num) | Converts num to a float | A numerical value | The value as a float | . | len(arr) | Returns the length of arr | array or list | int: the length of the array or list | . | max(arr) | Returns the maximum value in arr | array or list | The maximum value the array (usually an int) | . | min(arr) | Returns the minimum value in arr | array or list | The minimum value the array (usually an int) | . | sum(arr) | Returns the sum of the values in arr | array or list | int or float: the sum of the values in the array | . | abs(num) | Returns the absolute value of num | int or float | int or float | . NumPy Array Functions . | Function | Description | Input | Output | . | make_array(v1, v2, ...) | Makes a NumPy array with the inputted values | A sequence of values | An array with those values | . | np.mean(arr) | Calculates the average value of arr | An array of numbers | float: The average of the array | . | np.sum(arr) | Returns the sum of the values in arr | array | int or float: the sum of the values in the array | . | np.arange(stop) or np.arange(start, stop) | Creates an array of sequential numbers starting at start and going up to but excluding stop | int or float | array | . Table Methods . | Function | Description | Input | Output | . | tbl.column(col) | Returns the values in a column | string or int: the column name or index | array: the values in that column | . | tbl.num_rows, tbl.num_columns | Computes the number of rows or columns in tbl | None | int: the number of rows or columns in the table | . | tbl.select(c1, c2, ...) | Creates a copy of tbl only with the selected columns | string or int: the column name(s) or index(es) to be included in the table | Table with the selected columns | . | tbl.sort(column_name) | Sorts the rows of tbl by the values in the column_name column. Defaults to ascending order unless the optional argument descending=True is included. | 1. string or int: name or index of the column to sort 2. (Optional) descending=True | Table: copy of the table with the column sorted | . | tbl.where(column, predicate) | Creates a copy of tbl containing only the rows where the value of column matches the predicate. | 1. string or int: column name or index 2. the value to match to | Table: copy of the table with only the rows that match the predicate | . | tbl.take(row_indices) | Creates a table with only the rows at the given indices. | int or array: indices of rows to be included in the table | Table: copy of the table with only the rows at the given indices | . Visualization Functions . | Function | Description | Input | Output | . | tbl.barh(categories) or tbl.barh(categories, values) | Displays a horizontal bar chart with bars for each category in the column categories. values specifies the column corresponding to the size of each bar, but is unnecessary if the table only has two columns | 1. string: name of the column with categories 2. (Optional) string: name of the column with numerical values | None: draws a bar chart | . | tbl.hist(column) | Generates a histogram of the numerical values in column. | string: name of the column | None: draws a histogram | . | tbl.plot(x_column, y_column) or tbl.plot(x_column) | Draws a line plot consisting of one point for each row in tbl. If only x_column is specified, plot will plot the rest of the columns on the y-axis with different colored lines. | 1. string: x-axis column name 2. string: y-axis column name | None: draws a line graph | . | tbl.scatter(x_column, y_column) | Draws a scatter plot consisting of one point for each row in tbl. The optional argument fit_line=True can be included to draw a line of best fit through the scatter plot. | 1. string: x-axis column name 2. string: y-axis column name | None: draws a scatter plot | . ",
+    "url": "http://localhost:4000/su22/cheatsheet/#data-6-python-cheat-sheet",
+    "relUrl": "/cheatsheet/#data-6-python-cheat-sheet"
+  },"6": {
+    "doc": "Exam Cheat Sheet",
+    "title": "Exam Cheat Sheet",
+    "content": " ",
+    "url": "http://localhost:4000/su22/cheatsheet/",
+    "relUrl": "/cheatsheet/"
+  },"7": {
+    "doc": "Home",
+    "title": "Introduction to Computational Thinking with Data 📊",
+    "content": "UC Berkeley, Summer 2022 . Instructors: James Weichert (jweichert@berkeley.edu), Will Furtado (willfurtado@berkeley.edu) . ",
+    "url": "http://localhost:4000/su22/index.html#introduction-to-computational-thinking-with-data-",
+    "relUrl": "/index.html#introduction-to-computational-thinking-with-data-"
+  },"8": {
+    "doc": "Home",
+    "title": "Announcements",
+    "content": " ",
+    "url": "http://localhost:4000/su22/index.html#announcements",
+    "relUrl": "/index.html#announcements"
+  },"9": {
+    "doc": "Home",
+    "title": "Week 2 Announcements",
+    "content": "Jul 11 &middot; 1 min read Congratulations on finishing your week of Data 6! Here are this week’s announcements: . | Homework 1 and Survey 1 have been released and will be due on Friday (7/15) at 11 PM (we extended the deadline by a day) . | If you are having issues accessing the homework assignment, post on Ed or come to office hours | . | Office Hours are on Tuesdays and Thursdays 1-3 PM in Evans 6 . | Office hours are a great opportunity to ask questions about difficult concepts or to get help with assignments | You can also post any assignment or conceptual questions on Ed | . | James will be holding Coffee Chats at Caffe Strada on Fridays at 9am. These are completely optional but you’re welcome to come if you want to ask conceptual questions about Data 6 or ask any questions about life at Berkeley, the Data Science major, or more! | . ",
+    "url": "http://localhost:4000/su22/index.html",
+    "relUrl": "/index.html"
+  },"10": {
+    "doc": "Home",
+    "title": "Week 1 — Introduction to Python",
+    "content": "Jul 5 1 Introduction, Course Overview Slides • Code • Blank Code 2 Jupyter Notebooks, Arithmetic Slides • Code • Blank Code Optional Reading: CIT 1.1, 3.1; SPR 8 Survey Welcome Survey   Due Jul 5 @ 11:00PM Jul 6 3 Evaluation, Names, Data Types Slides • Code • Blank Code Optional Reading: CP 1.2; CIT 3.2; 4.1; 4.2 Lab 1 Using Jupyter Notebooks (Solutions) Jul 7 4 Arrays and Variables Slides • Code • Blank Code Optional Reading: PPDS 1.2, CIT 5.1 5 NumPy, Indexing, Working with Data Slides • Code • Blank Code Optional Reading: PPDS 5.2, CIT 5.6 Homework 1 Introduction to Python  Due Jul 15 @ 11:00PM How to Fix HW 1 Jupyter Issues Survey Weekly Survey 1  Due Jul 15 @ 11:00PM Jul 8 Discussion 1 Health Data (Solutions) ",
+    "url": "http://localhost:4000/su22/index.html#week-1-introduction-to-python",
+    "relUrl": "/index.html#week-1-introduction-to-python"
+  },"11": {
+    "doc": "Home",
+    "title": "Week 2 — Visualizing Data",
+    "content": "Jul 11 6 Table Fundamentals Slides • Code • Blank Code Optional Reading: CIT 6, CIT 6.2 datascience Documentation Jul 12 7 Introduction to Visualization Slides Optional Reading: CIT 7, FDV 1 Lab 2 Table Methods and Data Manipulation Jul 13 8 Visualizing Categorical Variables Slides • Code • Blank Code Optional Reading: CIT 7.1, FDV 6.1 9 Visualizing Numerical Variables Slides • Code • Blank Code Optional Reading: CIT 7.2, FDV 7.1 Jul 14 10 Visualizing Two Variables Slides • Code • Blank Code Optional Reading: CIT 7.3, FDV 12.1 Lab 3 Visualization Methods Homework 2 Table Methods and Data Visualization  Due Jul 21 @ 11:00PM Survey Weekly Survey 2  Due Jul 21 @ 11:00PM Jul 15 Discussion 2 Data Humanism in Visualization &lt;!–(Solutions) Recommended Reading: “Applying Racial Equity Awareness in Data Visualization” R Quiz Review ",
+    "url": "http://localhost:4000/su22/index.html#week-2-visualizing-data",
+    "relUrl": "/index.html#week-2-visualizing-data"
+  },"12": {
+    "doc": "Home",
+    "title": "Week 3 — Tables",
+    "content": "Jul 18 Quiz Quiz 1: Python and Visualization 11 Sorting, Filtering Rows Jul 19 12 Row Methods, Joining Tables Lab 4 Tables Jul 20 13 Functions (I) 14 Grouping, Pivoting Jul 21 15 Applying Lab 5 More Table Methods Homework 3 Table Methods  Due Jul 28 @ 11:00PM Survey Weekly Survey 3  Due Jul 28 @ 11:00PM Jul 22 Discussion 3 Algorithmic Bias ",
+    "url": "http://localhost:4000/su22/index.html#week-3-tables",
+    "relUrl": "/index.html#week-3-tables"
+  },"13": {
+    "doc": "Home",
+    "title": "Week 4 — Python Functions and Control",
+    "content": "Jul 25 16 Functions (II) 17 Comparisons, Booleans Jul 26 18 Control Lab 6 Functions Jul 27 19 For Loops Jul 28 20 Advanced For-Loops Lab 7 Python Fundamentals Homework 7 Python Fundamentals  Due Aug 2 @ 11:00PM Survey Weekly Survey 4  Due Aug 2 @ 11:00PM Jul 29 Discussion 4 Privacy R Quiz Review ",
+    "url": "http://localhost:4000/su22/index.html#week-4-python-functions-and-control",
+    "relUrl": "/index.html#week-4-python-functions-and-control"
+  },"14": {
+    "doc": "Home",
+    "title": "Week 5 — More Python",
+    "content": "Aug 1 Quiz Quiz 2: Tables, Functions and Loops Lab 8 For Loops Aug 2 21 File Formats, Dictionaries (I) Aug 3 22 Dictionaries (II) Lab 9 Dictionaries Aug 4 23 Maps Homework 5 Dictionaries  Due Aug 10 @ 11:00PM Survey Weekly Survey 5  Due Aug 10 @ 11:00PM Aug 5 Discussion 5 Data in Elections ",
+    "url": "http://localhost:4000/su22/index.html#week-5-more-python",
+    "relUrl": "/index.html#week-5-more-python"
+  },"15": {
+    "doc": "Home",
+    "title": "Week 6 — Simulations and Conclusion",
+    "content": "Aug 8 24 Case Study 25 Randomness, Simulation Aug 9 26 Finding and Using Data Lab 10 Simultation and Sampling Aug 10 27 Conclusion and Next Steps Aug 11 R Final Review Aug 12 Exam Final Exam (In-Class) ",
+    "url": "http://localhost:4000/su22/index.html#week-6-simulations-and-conclusion",
+    "relUrl": "/index.html#week-6-simulations-and-conclusion"
+  },"16": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://localhost:4000/su22/index.html",
+    "relUrl": "/index.html"
+  },"17": {
+    "doc": "Python Reference",
+    "title": "Python Reference 🐍",
+    "content": " ",
+    "url": "http://localhost:4000/su22/reference/#python-reference-",
+    "relUrl": "/reference/#python-reference-"
+  },"18": {
+    "doc": "Python Reference",
+    "title": "Table of contents",
+    "content": ". | Understanding the Python Reference . | The Anatomy of a Function | How to Read These Tables | . | Built-In Python Functions | NumPy Array Functions | Tables and Table Methods | Visualization Functions | Table.where Predicates | More Documentation | . ",
+    "url": "http://localhost:4000/su22/reference/#table-of-contents",
+    "relUrl": "/reference/#table-of-contents"
+  },"19": {
+    "doc": "Python Reference",
+    "title": "Understanding the Python Reference",
+    "content": "If you’re new to reading documentation, looking at the Data 6 Python Reference might feel a little overwhelming, but don’t worry — the point of this class is not to memorize all of these functions or their arguments. For exams and quizzes, you will be provided with a reference sheet that contains all of the functions you may need on the exam. However, we do expect you to understand how to use the Python Reference to understand new functions, and to help with debugging when things go wrong. Learning how to read and understand documentation is a key to becoming a good data scientist. In fact, even course staff continue to use the Python Reference to refresh their memory about certain functions. Of course, the Python Reference can only provide information about the basics of the functions you’ll use in Data 6. The best knowledge about functions comes from using these functions in code you write in labs or homeworks. If you get stuck when using a certain function, we encourage you to come to office hours or ask a question on Ed. The Anatomy of a Function . def my_function(num): return num ** 3 In the function above, my_function is the name of the function, which takes one argument called num. The data type of the input is an int or float, and the function returns the number raised to the power 3, which is also an int or float. How to Read These Tables . | The Function column tells you how to call the function and what arguments it accepts. Everything written in this font is code or refers to a particular argument in the function (e.g. num in np.sqrt(num)). | The Description column gives you a brief description of what the function does, including what each argument is used for | The Input column tells you what data type each argument needs to be. If you’re getting a TypeError, it might be because your inputs are of the wrong type. Data types are indicated in bold (e.g. string or Table). | The Output column tells you what the function returns and what data type it is. | . ",
+    "url": "http://localhost:4000/su22/reference/#understanding-the-python-reference",
+    "relUrl": "/reference/#understanding-the-python-reference"
+  },"20": {
+    "doc": "Python Reference",
+    "title": "Built-In Python Functions",
+    "content": "| Function | Description | Input | Output | . | str(val) | Converts val to a string | A value of any type (int, float, NoneType, etc.) | The value as a string | . | int(num) | Converts num to an int | A numerical value (represented as a string or float) | The value as an int | . | float(num) | Converts num to a float | A numerical value (represented as a string or int) | The value as a float | . | len(arr) | Returns the length of arr | array or list | int: the length of the array or list | . | max(arr) | Returns the maximum value in arr | array or list | The maximum value the array (usually an int) | . | min(arr) | Returns the minimum value in arr | array or list | The minimum value the array (usually an int) | . | sum(arr) | Returns the sum of the values in arr | array or list | int or float: the sum of the values in the array | . | abs(num) | Returns the absolute value of num | int or float | int or float | . ",
+    "url": "http://localhost:4000/su22/reference/#built-in-python-functions",
+    "relUrl": "/reference/#built-in-python-functions"
+  },"21": {
+    "doc": "Python Reference",
+    "title": "NumPy Array Functions",
+    "content": "| Function | Description | Input | Output | . | make_array(val1, val2, ...) | Makes a NumPy array with the inputted values | A sequence of values | An array with those values | . | np.mean(arr) or np.average(arr) | Calculates the average value of arr | An array of numbers | float: The average of the array | . | np.sum(arr) | Returns the sum of the values in arr | array | int or float: the sum of the values in the array | . | np.prod(arr) | Returns the product of the values in arr | array | int or float: the product of the values in the array | . | np.sqrt(num) | Calculates the square root of num | int or float | float : the square root of the number | . | np.arange(stop), np.arange(start, stop), or np.arange(start, stop, step) | Creates an array of sequential numbers starting at start, going up in increments of step, and going up to but excluding stop. Default start is 0, default step is 1 | int or float | array | . | np.count_nonzero(arr) | Returns the number of non-zero (or True) elements in an array | An array of values | int: the number of non-zero values in arr | . ",
+    "url": "http://localhost:4000/su22/reference/#numpy-array-functions",
+    "relUrl": "/reference/#numpy-array-functions"
+  },"22": {
+    "doc": "Python Reference",
+    "title": "Tables and Table Methods",
+    "content": "| Function | Description | Input | Output | . | Table() | Creates an empty table, usually to extend with data | None | An empty Table | . | tbl.with_column(name, values) or tbl.with_columns(n1, v1, n2, v2, ...) | Adds an extra column onto tbl with the label name and values as the column values | 1. string: name of the new column 2. array: values in the column | Table: a copy of the original table with the new column(s) | . | tbl.column(col) | Returns the values in a column | string or int: the column name or index | array: the values in that column | . | tbl.num_rows | Compute the number of rows in tbl | None | int: the number of rows in the table | . | tbl.num_columns | Compute the number of columns in tbl | None | int: the number of columns in the table | . | tbl.labels | Returns the labels in tbl | None | array: the names of each column as strings | . | tbl.select(col1, col2, ...) | Creates a copy of tbl only with the selected columns | string or int: the column name(s) or index(es) to be included in the table | Table with the selected columns | . | tbl.drop(col1, col2, ...) | Creates a copy of tbl without the selected columns | string or int: the column name(s) or index(es) to be dropped from the table | Table without the selected columns | . | tbl.relabeled(old_label, new_label) | Creates a new table, changing the column name specified by old_label to new_label, and leaves the original table unchanged. | 1. string: the old column name 2. string the new column name | Table: a copy of the original table with the changed column name | . | tbl.show(n) | Displays the first n rows of tbl. If no argument is specified, the function defaults to showing the entire table | (Optional) int: number of rows to be displayed | None (table is displayed) | . | tbl.sort(column_name) | Sorts the rows of tbl by the values in the column_name column. Defaults to ascending order unless the optional argument descending=True is included. | 1. string or int: name or index of the column to sort 2. (Optional) descending=True | Table: a copy of the original table with the column sorted | . | tbl.where(column, predicate) | Creates a copy of tbl containing only the rows where the value of column matches the predicate. See Table.where predicates below. | 1. string or int: column name or index 2. are.(...) predicate | Table: a copy of the original table with only the rows that match the predicate | . | tbl.take(row_indices) | Creates a table with only the rows at the given indices. row_indices is either an array of indices or an integer corresponding to one index. | int or array: indices of rows to be included in the table | Table: a copy of the original table with only the rows at the given indices | . | tbl.apply(function) or tbl.apply(function, col1, col2, ...) | Returns an array of values resulting from applying a function to each item in a column. | 1. Function: function to apply to column 2. (Optional) string or int: the column name(s) or index(es) to apply the function to | array containing an element for each value in the original column after applying the function to it | . | tbl.group(column_or_columns, function) | Groups rows in tbl by unique values or combinations of values in a column(s). Multiple columns must be entered as an array of strings. Values in the other columns are aggregated by count (by default) or the optional argument function. You can visualize the group function here. | 1. string or array of strings: column(s) on which to group 2. (Optional) Function: function to aggregate values in cells (defaults to counting rows) | Table a new groupped table | . | tbl.pivot(col1, col2) or tbl.pivot(col1, col2, values, collect) | Creates a pivot table where each unique value in col1 has its own column and each unique value in col2 has its own row. Counts or aggregates values from a third column, collected with some function. If the values and collect arguments are not included, pivot defaults to returning counts in the cells. You can visualize the pivot function here. | 1. string: name of the column in tbl whose unique values will make up the columns of the pivot table 2. string: name of column in tbl whose unique values will make up the rows of the pivot table 3. (Optional) string: name of the column in tbl that describes the values of cells in the pivot table 4. (Optional) Function: how the values are collected (e.g. sum or np.mean) | Table: a new pivot table | . | tblA.join(colA, tblB) or tblA.join(colA, tblB, colB) | Generate a table with the columns of tblA and tblB, containing rows for all values in colA and colB that appear in tblA and tblB, respectively. By default, colB is the same value as colA. colA and colB must be strings specifying column names. | 1. string: name of column in tblA with values to join on 2. Table: the other table 3. (Optional) string: the name of the shared column in tblB, if column names are different between the tables | Table: a new combined table | . ",
+    "url": "http://localhost:4000/su22/reference/#tables-and-table-methods",
+    "relUrl": "/reference/#tables-and-table-methods"
+  },"23": {
+    "doc": "Python Reference",
+    "title": "Visualization Functions",
+    "content": "| Function | Description | Input | Output | . | tbl.barh(categories) or tbl.barh(categories, values) | Displays a horizontal bar chart with bars for each category in the column categories. values specifies the column corresponding to the size of each bar, but is unnecessary if the table only has two columns | 1. string: name of the column with categories 2. (Optional) string: name of the column with values corresponding to the categories | None: draws a bar chart | . | tbl.hist(column) | Generates a histogram of the numerical values in column. | string: name of the column | None: draws a histogram | . | tbl.plot(x_column, y_column) or tbl.plot(x_column) | Draws a line plot consisting of one point for each row in tbl. If only x_column is specified, plot will plot the rest of the columns on the y-axis with different colored lines. | 1. string: name of the column on the x-axis 2. string: name of the column on the y-axis | None: draws a line graph | . | tbl.scatter(x_column, y_column) | Draws a scatter plot consisting of one point for each row in tbl. The optional argument fit_line=True can be included to draw a line of best fit through the scatter plot. | 1. string: name of the column on the x-axis 2. string: name of the column on the y-axis 3. (Optional) fit_line=True | None: draws a scatter plot | . ",
+    "url": "http://localhost:4000/su22/reference/#visualization-functions",
+    "relUrl": "/reference/#visualization-functions"
+  },"24": {
+    "doc": "Python Reference",
+    "title": "Table.where Predicates",
+    "content": "These functions can be passed in as the second argument to tbl.where(..) and act as a condition by which to select rows from tbl. | Predicate | Description | . | are.equal_to(Z) | Equal to Z (can be an int, float or string) | . | are.not_equal_to(Z) | Not equal to ‘Z’ can be a number (int or float) or a string) | . | are.above(x) | Greater than x | . | are.above_or_equal_to(x) | Greater than or equal to x | . | are.below(x) | Less than x | . | are.below_or_equal_to(x) | Less than or equal to x | . | are.between(x,y) | Greater than or equal to x and less than y | . | are.between_or_equal_to(x,y) | Greater than or equal to x, and less than or equal to y | . | are.strictly_between(x,y) | Greater than x and less than y | . | are.contained_in(A) | True if it is a substring of A (if A is a **string**) or an element of A (if A` is an array) | . | are.containing(S) | Contains the string S | . ",
+    "url": "http://localhost:4000/su22/reference/#tablewhere-predicates",
+    "relUrl": "/reference/#tablewhere-predicates"
+  },"25": {
+    "doc": "Python Reference",
+    "title": "More Documentation",
+    "content": "The Data 6 Python reference guide is based on the Data 8 Python Reference. More detailed Python documentation is available here. ",
+    "url": "http://localhost:4000/su22/reference/#more-documentation",
+    "relUrl": "/reference/#more-documentation"
+  },"26": {
+    "doc": "Python Reference",
+    "title": "Python Reference",
+    "content": " ",
+    "url": "http://localhost:4000/su22/reference/",
+    "relUrl": "/reference/"
+  },"27": {
+    "doc": "Resources",
+    "title": "Resources\t📚",
+    "content": " ",
+    "url": "http://localhost:4000/su22/resources/#resources-",
+    "relUrl": "/resources/#resources-"
+  },"28": {
+    "doc": "Resources",
+    "title": "Table of contents",
+    "content": ". | Python Documentation | Supplemental Readings | Other | . ",
+    "url": "http://localhost:4000/su22/resources/#table-of-contents",
+    "relUrl": "/resources/#table-of-contents"
+  },"29": {
+    "doc": "Resources",
+    "title": "Python Documentation",
+    "content": "Learning a new programming language like Python is a lot like learning a new language: you have to learn vocabulary and learn how to string words together to make sentences that are gramatically and syntactically correct. Just like you might use a dictionary to learn the meaning of new words, programmers use documentation to understand what functions and data types do and how they operate. Here are documentation sources that are helpful for understanding the functions and objects we use in Data 6: . | Data 6 Python Reference Guide (D6PR) . | This has documentation for all of the functions we expect you to know in Data 6. You can use this as your “cheat sheet” while working on assignments. We will also provide a shortened version of the reference guide for the final exam. | . | Data 8 Python Reference (D8PR) . | The Data 6 Python Reference is based off of the Python Reference for Data 8, which contains many of these same functions that we use plus some that are out of scope for this class. | . | Stanford’s Python Reference (SPR) . | This website is a Python guide written for Stanford’s intro CS class, and is a great reference if you need a refresher on how something works in Python. | . | Official Python Documentation . | This may be helpul if you want to learn more about the intricate details of how Python works, but just remember that a lot of these details are out of scope for this class. | . | datascience Library Documentation . | If you come across a weird error involving the datascience library (anything to do with tables), you might be able to debug the error by looking at the datascience documentation. Again, a lot of this is way more detailed than we will be in Data 6, so don’t worry if you don’t understand everything in the documentation. | . | . ",
+    "url": "http://localhost:4000/su22/resources/#python-documentation",
+    "relUrl": "/resources/#python-documentation"
+  },"30": {
+    "doc": "Resources",
+    "title": "Supplemental Readings",
+    "content": "Although there is no specific textbook for this class, we will draw on concepts from a couple of textbooks from similar data science and computer science classes. For most lectures, we will post links to chapters from textbooks covering the topics we will discuss in lecture. These supplemental readings are optional, but you might find it helpful to use these resources to review or to develop a better understanding of certain concepts. All of these textbooks cover the fundamentals of Python, but in slightly different ways. Only the first link will contain any code that uses the datascience library that we use in this course, but some of the more general Python code may still be helpful/useful. We do not expect you to read these textbooks in their entirety (in fact, most of their material is out of scope for this class). | Computational and Inferential Thinking (CIT), the textbook for Data 8 at UC Berkeley, overlaps with our course significantly with Data 6, though there’s a lot in there that we won’t cover and there’s a lot that we’ll cover that won’t be in there. | Python Programming for Data Science (PPDS) is also a good references that covers the material in our class and more. | Composing Programs (CP), the textbook for CS 61A and CS 88 at UC Berkeley, covers Python from a more traditional computer science perspective rather than the data science perspective we will take; as such, only a few sub-chapters are relevant to us but you may find it useful nonetheless. | Problem Solving with Python (PSP) teaches a lot of practical Python tools, and was written specifically for beginner engineering students. | How to Think Like a Computer Scientist is also a great reference. | A Reader on Data Visualization (RDV) provides an interesting overview of and introduction to data visualization. This text focuses more on the design of visualizations instead of the technical aspects of creating them. | Fundamentals of Data Visualization (FDV) is the online version of Claus Wilke’s book that covers the basics of how to tell informative and ethical stories with data visualizations. | . ",
+    "url": "http://localhost:4000/su22/resources/#supplemental-readings",
+    "relUrl": "/resources/#supplemental-readings"
+  },"31": {
+    "doc": "Resources",
+    "title": "Other",
+    "content": ". | The Data 8 Table Function Visualizer is a great tool to see how .group and .pivot work. | . ",
+    "url": "http://localhost:4000/su22/resources/#other",
+    "relUrl": "/resources/#other"
+  },"32": {
+    "doc": "Resources",
+    "title": "Resources",
+    "content": " ",
+    "url": "http://localhost:4000/su22/resources/",
+    "relUrl": "/resources/"
+  },"33": {
+    "doc": "Schedule",
+    "title": "Weekly Schedule",
+    "content": ". | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | 5:30 PM | . | ",
+    "url": "http://localhost:4000/su22/schedule/#weekly-schedule",
+    "relUrl": "/schedule/#weekly-schedule"
+  },"34": {
+    "doc": "Schedule",
+    "title": "Monday",
+    "content": ". | Lecture 10:10 AM–12:00 PM 212 Wheeler | . | ",
+    "url": "http://localhost:4000/su22/schedule/",
+    "relUrl": "/schedule/"
+  },"35": {
+    "doc": "Schedule",
+    "title": "Tuesday",
+    "content": ". | Lecture 10:10 AM–11:00 AM 212 Wheeler | Lab 11:10 AM–12:00 PM 212 Wheeler | Office Hours 3:00 PM–5:00 PM Evans 41 | . | ",
+    "url": "http://localhost:4000/su22/schedule/",
+    "relUrl": "/schedule/"
+  },"36": {
+    "doc": "Schedule",
+    "title": "Wednesday",
+    "content": ". | Lecture 10:10 AM–12:00 PM 212 Wheeler | Office Hours 3:00 PM–5:00 PM Evans 41 | . | ",
+    "url": "http://localhost:4000/su22/schedule/",
+    "relUrl": "/schedule/"
+  },"37": {
+    "doc": "Schedule",
+    "title": "Thursday",
+    "content": ". | Lecture 10:10 AM–11:00 AM 212 Wheeler | Lab 11:10 AM–12:00 PM 212 Wheeler | Office Hours 4:10 PM–5:00 PM Online | . | ",
+    "url": "http://localhost:4000/su22/schedule/",
+    "relUrl": "/schedule/"
+  },"38": {
+    "doc": "Schedule",
+    "title": "Friday",
+    "content": ". | Coffee Chats 9:10 AM–10:00 AM Caffe Strada | Discussion 10:10 AM–12:00 PM 105 &amp; 205 Dwinelle | . | . ",
+    "url": "http://localhost:4000/su22/schedule/",
+    "relUrl": "/schedule/"
+  },"39": {
+    "doc": "Schedule",
+    "title": "Schedule",
+    "content": " ",
+    "url": "http://localhost:4000/su22/schedule/",
+    "relUrl": "/schedule/"
+  },"40": {
+    "doc": "Staff",
+    "title": "Staff",
+    "content": "Read more about our amazing Data 6 course staff below! We’re all current or recent Berkeley undergraduates, so feel free to reach out with any questions about life at UC Berkeley, the data science major, or anything else Cal related! . ",
+    "url": "http://localhost:4000/su22/staff/",
+    "relUrl": "/staff/"
+  },"41": {
+    "doc": "Staff",
+    "title": "Instructors",
+    "content": "James Weichert he/him . jweichert@berkeley.edu . Hi y’all! I’m a senior from Virginia studying computer science and data science. When I’m not in the classroom, you can usually find me in the Student Union working for the ASUC or at one of a couple of coffee shops around campus. I’m super excited to be teaching Data 6, and hope you enjoy learning data science as much as I do. Will Furtado he/him . willfurtado@berkeley.edu . Hey! I’m a rising senior from Cape Cod, MA studying Applied Mathematics and Computer Science. Outside of teaching, you’ll likely find me curating Spotify playlists, playing Wii Tennis, or shooting film on my Canon AE-1. I’m incredibly excited to be teaching Data 6 this summer. Reach out with any questions – any at all! . ",
+    "url": "http://localhost:4000/su22/staff/#instructors",
+    "relUrl": "/staff/#instructors"
+  },"42": {
+    "doc": "Staff",
+    "title": "Undergraduate Student Instructors (uGSIs)",
+    "content": "Joshua Alvarez he/him . cayanan.joshua@berkeley.edu . Hi! I’m a recent grad originally from LA. I love to surf and listen to jazz. Sandra You she/her . xinyueyou@berkeley.edu . Hi! I’m Sandra and I’m a rising senior studying computer and data science. Besides academics I love hiking, music, and movies! Feel free to reach out to me to talk about data science and anything that interests you. Looking forward to meeting the data 6 community this summer! . ",
+    "url": "http://localhost:4000/su22/staff/#undergraduate-student-instructors-ugsis",
+    "relUrl": "/staff/#undergraduate-student-instructors-ugsis"
+  },"43": {
+    "doc": "Staff",
+    "title": "Tutors",
+    "content": "Leanne Bardoles she/her . lbardoles@berkeley.edu . Hello! My name is Leanne and I am a rising senior studying Data Science and Public Health. In addition to meeting you all, I am trying to read more and listen to new music this summer so let me know if you have any recommendations! :) . Sunya Abbasi she/her . sunya@berkeley.edu . Hey, I’m Sunya! I’m a junior majoring in Data Science from Redwood City, CA. This summer I’m looking forward to traveling, spending time with friends, and tutoring Data 6! . ",
+    "url": "http://localhost:4000/su22/staff/#tutors",
+    "relUrl": "/staff/#tutors"
+  },"44": {
+    "doc": "Submitting Homeworks",
+    "title": "Homework Submission Instructions",
+    "content": "After you’ve completed a homework assignment, you’ll want to follow these steps to submit your work: . | Save your notebook. | Navigate to Kernel &gt; Restart. | Manually run each cell in your notebook, starting from the very top (remember to use Shift + Enter!). Make sure all of your test cases still pass. | Save your notebook. (You can never save your notebook too much!) | Run the very last cell, which generates a .zip file for you to download to your local computer. Click the “here” button to download the .zip file. The .zip file contains all of the necessary components of your submission. | You may receive an error that the .zip file was unable to be created because there was an issue with PDF generation. You need to ensure that you’ve answered all of the questions that require a manual response. | If your work downloads as several independent files rather than as a .zip, you are likely using Safari on a Mac. Follow these instructions to make sure you can download your work as a zip (try using Google Chrome). | . | Upload this .zip to the correct assignment on Gradescope. | You should already be added to Gradescope; email James or Will if you aren’t. | If your submission time is 12:00am or later on the day after the deadline, your submission will be marked late. | . | . That’s it! A while after submitting, the autograder built-in to the Gradescope assignment will tell you which test cases you’ve passed and failed. These are exactly the same test cases as the ones that were in your notebook. If there are test cases that pass in your notebook but fail on Gradescope, make sure you followed the submission instructions exactly and try again. If you try again and something still isn’t working, please post in the corresponding homework thread on Ed! . Note: For homework questions that are multiple choice, in addition to the public tests you see in the notebook, we will include hidden tests. This is to ensure that the correct answer isn’t given away by the test cases. The submission process requires a few steps. As such, don’t wait until the last minute to try and submit! . ",
+    "url": "http://localhost:4000/su22/submissions/#homework-submission-instructions",
+    "relUrl": "/submissions/#homework-submission-instructions"
+  },"45": {
+    "doc": "Submitting Homeworks",
+    "title": "Submitting Homeworks",
+    "content": " ",
+    "url": "http://localhost:4000/su22/submissions/",
+    "relUrl": "/submissions/"
+  },"46": {
+    "doc": "Syllabus",
+    "title": "Syllabus 📖",
+    "content": " ",
+    "url": "http://localhost:4000/su22/syllabus/#syllabus-",
+    "relUrl": "/syllabus/#syllabus-"
+  },"47": {
+    "doc": "Syllabus",
+    "title": "Table of contents",
+    "content": ". | Welcome 👋 | About 🧐 | Logistics 🗓 | Course Components 📒 . | Lecture | Lab | Discussion | Homework | Office Hours and Ed | Quizzes and Exams | . | Communication 💬 | Technology 💻 | Policies 📑 . | Grading | Participation | Weekly Surveys | Homework Drops and Extra Credit | Late Policy and Extensions | Academic Honesty | A Note on Letter Grades | . | Accommodations 🤝 | Campus Resources 🏫 | Acknowledgements 🙏 | . ",
+    "url": "http://localhost:4000/su22/syllabus/#table-of-contents",
+    "relUrl": "/syllabus/#table-of-contents"
+  },"48": {
+    "doc": "Syllabus",
+    "title": "Welcome\t👋",
+    "content": "Welcome to Data 6 Summer 2022! On behalf of the Data 6 course staff, we’re excited to be teaching you this summer and hope you enjoy this class as much as we enjoy teaching it. Whether you’re a first-time college student or a seasoned veteran student, Data 6 is the perfect course to get started with coding and data science. This course is specifically designed without any prerequisites or assumed prior knowledge of computer science or statistics — we will teach you everything you need to succeed in this class and prepare you for further data science and/or computer science classes. Along the way, you’ll gain practical experience working with data and using Python code to extract useful insights from real-world data sets. Even if this is the last data science class you ever take, we hope you’ll learn useful skills that you can apply to your own major or field of study, especially in the social sciences. One of—in our opinion—the best parts of data science at Berkeley is the opportunity to learn from other students. All members of course staff are current undergraduates at UC Berkeley who have taken other data science classes and have experience teaching in classes like Data 8. Believe it or not, we were all once students taking introductory data science and computer science classes and were just as confused and overwhelmed as you. We know what it’s like to step into a class feeling out of place, but also know what it’s like to finish a class feeling fulfilled and confident in your ability to succeed in data science and computer science at Berkeley. You are here for a reason — you are all talented students and are all more than capable of being great data scientists, computer scientists, engineers, social scientists, and more. We want to do our best to support you this summer, so please don’t hesitate to reach out to any of us via email or Ed if you have any questions or concerns. We are continually revising course materials, assignments, and policies to improve the course and make this the best learning experience for you all. We welcome constructive feedback about what we can improve, and will try our best to incorporate your feedback into future lectures and assignments. Again, welcome to Data 6 — we can’t wait to meet you and are super excited to be teaching you this summer! . Best, James and Will . ",
+    "url": "http://localhost:4000/su22/syllabus/#welcome-",
+    "relUrl": "/syllabus/#welcome-"
+  },"49": {
+    "doc": "Syllabus",
+    "title": "About\t🧐",
+    "content": "From the course catalog: Data 6 is an introduction to computational thinking and quantitative reasoning, designed to prepare students for further coursework in data science, computer science, and statistics (in particular, Foundations of Data Science, Data 8). This course emphasizes the use of computation to gain insight about quantitative problems with real data from the social sciences. Data 6 uses the Python programming language to teach computation. It also uses the Jupyter Notebook environment, which makes it easy to get started with programming without needing to use a text editor or terminal and is very popular in data science applications. Jupyter Notebooks are also used in courses like Data 8 and Data 100, so it’s helpful to get a head start using them. This class serves a different purpose than several other classes that may sound similar. Specifically: . | Data 8: Data 8 (Foundations of Data Science) is the first course in the requirement sequence for the UC Berkeley data science major and minor. While some of the topics in Data 8 are similar, Data 6 does not cover nearly as much statistics and inference as Data 8. Instead, we dive deeper into the mechanics of Python and how to use Python to generate insights from data using real-world data sets (mostly from the social sciences). After taking Data 6, you will be more than well-equipped to take (and succeed in) Data 8. | CS 10: CS 10 (The Beauty and Joy of Computing) is a similar class to Data 6 in that it is intended as an introduction to computing that assumes no prior experience with programming. However, CS 10 focuses less on Python and data science, and more on abstract ideas in computer science. It is a fantastic alternative (or complement) to Data 6. | CS 61A and CS 88: Both CS 61A (Structure and Interpretation of Computer Programs) and CS 88 (Computational Structures in Data Science) also teach Python, but serve a slightly different purpose than Data 6 — namely, these courses are designed to introduce students to computer science, not to computing in data science. They cover the Python language in far greater detail than we will, but they do not cover how to work with real-world data. These courses are also substantially more fast-paced than Data 6, so they are excellent courses to take after Data 6 and/or Data 8. | . For the Summer 2022 iteration of Data 6, we have rearranged the order of some topics to more gradually ramp up to more advanced concepts and give you the tools to work with real-world data earlier on in the semester. This new ordering means that some of the lectures will be out of sync with the ordering of materials from previous iterations of the course. If you want to review material from past semesters, just keep in mind that you may not have learned certain concepts yet, and that’s perfectly ok. The rough topic breakdown for this summer is as follows: . | Week 1: Introduction to Python and Jupyter Notebooks | Week 2: Data Visualization | Week 3: Working with real-world tabular data using the datascience Python library | Week 4: Python Functions and Control | Week 5: More Python (and more real-world applications) | Week 6: Probability and Simulation | . Lecture slides will be posted to the website right before each lecture to allow you to follow along if you want. You are also welcome to experiment with the concepts you’ve learned by writing or editing code in the Jupyter Notebooks we provide for each lecture (feel free to change it however you want — we promise you won’t break anything). There is no one textbook that covers the content of this course the way we intend on covering, so all of the material you’ll need to succeed in Data 6 will be presented in lecture, labs, homeworks, and discussions. If you want to review additional material, we will post optional readings from online textbooks for other courses (e.g. Data 8) along with most lectures. You can read more here. ",
+    "url": "http://localhost:4000/su22/syllabus/#about-",
+    "relUrl": "/syllabus/#about-"
+  },"50": {
+    "doc": "Syllabus",
+    "title": "Logistics 🗓",
+    "content": "Lecture: Mondays &amp; Wednesdays, 10-12PM; Tuesdays &amp; Thursdays, 10AM-11AM in Wheeler 212 . Lab: (Usually) Tuesdays &amp; Thursdays, 11AM-12PM in Wheeler 212 . Discussion: Fridays, 10AM-12PM in Dwinelle 105 &amp; 130 . Office Hours (Optional): Tuesdays &amp; Thursdays, 1PM-3PM in Evans 6 . The full schedule is available on the Schedule page. ",
+    "url": "http://localhost:4000/su22/syllabus/#logistics-",
+    "relUrl": "/syllabus/#logistics-"
+  },"51": {
+    "doc": "Syllabus",
+    "title": "Course Components\t📒",
+    "content": "While this course is designed to fit into a six-week summer session, the pace of Data 6 over the summer is roughly twice as fast as the pace of a 3-unit class in the fall or spring semester. To compensate for the fast pace of the summer, we have more lectures and lab time than during the academic year. We do our best to make sure that we spend enough time on each concept, and that the material is approachable for all students. But if you feel like things are going too fast, let us know and we will try to slow down! . Part of making sure that we’re providing the best learning experience for you is checking in on your progress and getting feedback about the pace of the class. Each week, we will send out a survey asking for your feedback on how comfortable you are with the previous week’s concepts and how we can better support you going forward. Responding to the weekly surveys constitutes 5% of your final grade, but the surveys are graded on completion. The surveys will be anonymous and we encourage you to be honest about how you’re feeling and how you’re doing in the class so we can better support you. All of the course components (lectures, labs, discussions, homeworks, office hours, and quizzes/exams) are designed to provide valuable learning experiences and help you master core concepts in data science and computing. Lecture . There will be four lectures per week. In lecture, we’ll introduce you to new ideas and concepts in programming and data science. Lectures will be recorded and posted after class for you to review in the future. All lecture resources (slides, code, supplemental readings) will be linked on the course website. We will begin on Berkeley Time (10 minutes after the hour), and attendance is mandatory. In the event that you have to miss a lecture, let us know and you can catch up by watching the lecture recording later. During each lecture, there will be a few points at which we stop and ask you to answer a short question. We call these questions Quick Checks. They serve two purposes: . | For us to get a gauge of how well the class understands the material we’re currently covering | For you to get a gauge of how well you understand the material we’re currently covering | . Quick Checks are graded on completion, not correctness. It’s not important to get these questions right on your first try – but it’s important to try them. You will be given time in lecture to answer them. If you have to miss a lecture for whatever reason, just answer that lecture’s Quick Check whenever you catch up on the lecture. Additionally, in some lecture notebooks, we will post optional practice problems. These are not required, but we recommend that you complete them. Lab . There are (usually) two lab sections per week that follow immediately after the Tuesday and Thursday lectures. In lab, we’ll spend the first ~10 minutes going over some demos that are relevant to that week’s material. You’ll spend the remaining ~40 minutes working on the lab notebook that is available on the course website. Lab notebooks will give you an opportunity to apply the concepts you learn in lecture to real-world data and to practice coding in Python. While working on lab notebooks is required, the notebooks themselves are not graded — so don’t worry if you don’t finish the full notebook by the end of the lab. Lab notebooks are also great opportunities to work on problems with your peers. The hope is that by participating and collaborating during labs, you will be able to better understand the concepts and finish your homework more quickly. Discussing questions and approaches to problems with classmates is highly encouraged, but please note that you must always write your own answers and code in your jupyter notebooks, both on labs and homeworks. Discussion . Each Friday, we will have a discussion section led by your uGSI. In these sections, we will discuss ethical and social issues in computing and data, such as privacy and algorithmic bias. To prepare for these discussions, you might be asked to complete some short prep work consisting of a few short readings. We will posts the readings on the course website at the beginning of the week. On some Fridays, we might have guest speakers or do review for an upcoming quiz or final. Participation during discussion (and other parts of the course) is part of your grade. We hope to have you drive our discussions, so we encourage you to ask questions, raise new points, or make connections to your own experiences. Sometimes, discussion topics will include content covering sensitive issues, like racial bias in algorithms or the implications of data-driven policing and sentencing decisions. These issues are important to discuss because they are real-world consequences of data science and algorithms. Part of being a good data scientist is understanding the impact of your work, and working to mitigate the disparate impacts that data science might have on certain populations. We also always welcome feedback on how we approach and talk about these topics as instructors. Homework . You learn data science by doing data science, not by just listening to lectures or reading a textbook. As such, homework assignments will be your primary source of learning in this class. Homeworks will consist mainly of programming problems that challenge you to apply the skills you learned in recent lectures to accomplish tasks involving real data. The homeworks use autograder tests that will tell you if you are on the right track. There are additional autograder tests that will not be visible to you that we will use to grade your work, so don’t assume that just because the public autograder tests are passing that your answers are all correct. Always remeber to double check your code! Most homeworks will also include a few written response problems, where you will have to type your answer in text. These problems will be manually graded by a human on course staff, and often there is no single ‘right’ solution. We are mainly looking for you to show understanding of what you are doing and to explain your reasoning behind certain answers. Homeworks, like all course materials, can be accessed by clicking on the correct link on the course website. Clicking on a link to a homework will bring you to your own copy of the homework notebook in DataHub, which allows you to work on the homework online. Once you’re done with the homework, you will run the very last cell in the notebook to generate a .zip file, which you will then upload to Gradescope so that we can grade it. We will go over this process in more detail in lab. There are 5 homework assignments, which correspond to roughly one per week. In general, homework assignments will be released on Thursday afternoon and will be due the following Thursday at 11 PM. See the Policies section for our extensions and late submissions policy, as well as the homework drop policy. Homework assignments are meant to be completed individually, but we encourage you to discuss approaches with others; see our Academic Honesty policy below for acceptable forms of collaboration. Office Hours and Ed . In addition to lecture, lab and discussion, we will host office hours each week. In office hours, you will get a chance to ask questions about assignments and work with your peers on problems. You can also ask conceptual questions about lecture material. See the course schedule for more details about office hours. While office hours are not mandatory, we highly recommend attending them regularly. Most students find that office hours help them to work through assigments, and find other students who are working on the same problems. Attending Data 6 office hours is also a great way to familiarize yourself with the office hours environment for a lot of data science and computer science classes, where you will have to rely on working with peers due to a limited number of available TAs. Aside from office hours, we also encourage you to ask and answer questions about assignments and concepts on Ed. You can think about Ed as “24/7 office hours”. While you shouldn’t be surprised if a member of course staff answers your question at 1 AM, please be patient after posting a question on Ed — we have a lot of questions to answer. It also helps to search Ed to see if someone else has asked a similar question, and if that question has already been answered. Quizzes and Exams . This course does not have a midterm. Instead, we will have two short quizzes in class, each worth 10% of your final grade. Quizzes are not cumulative, so they will focus only on (roughly) the past two weeks worth of lecture content. Quizzes are intended to test your understanding of key concepts, but are not intended to ‘trick’ you. We will also hold review sessions during discussion before each quiz to help you prepare. The tentative dates for the quizzes are: . | Quiz 1: Monday, July 18th | Quiz 2: Monday, August 1st | . We will have a final exam during the campus-assigned slot: Friday August 12th, 10AM - 12PM. The exam is worth 15% of your grade, and taking the exam is a requirement for passing the class. Unlike the quizzes, the final exam will be cumulative. We will post more details about quizzes and exams on Ed. ",
+    "url": "http://localhost:4000/su22/syllabus/#course-components-",
+    "relUrl": "/syllabus/#course-components-"
+  },"52": {
+    "doc": "Syllabus",
+    "title": "Communication\t💬",
+    "content": "This class does not use bCourses — all of the materials and assignments for the class can be found on the Data 6 website. For class communication, we will be using Ed Discussion (or simply “Ed,” as we will call it), the campus’ discussion platform. Ed is where you will see announcements from course staff, ask questions about course material, and get help from staff and other students on assignments and concepts. Ed allows students to respond to questions from other students, so we hope you will help out your classmates by responding to questions you have the answer to, or asking questions about things you’re confused about. It’s likely that other students have many of the same questions as you! Please review the Ed etiquette guidelines before posting on Ed. You will be added to Ed automatically, but email James (jweichert@berkeley.edu) if you’re not sure how to access it. ",
+    "url": "http://localhost:4000/su22/syllabus/#communication-",
+    "relUrl": "/syllabus/#communication-"
+  },"53": {
+    "doc": "Syllabus",
+    "title": "Technology 💻",
+    "content": "We will be using several websites this semester. Here’s what they’re all used for: . | Course Website: where all content and assignments will be posted. | Ed: discussion forum where all announcements will be sent, and where all student-staff and student-student communication will occur. | DataHub: we use DataHub to host jupyter notebook assignments. Don’t worry too much about how this works, just access all assignments by clicking the link on the Data 6 website. | Gradescope: where all homeworks will be submitted and all grades will live. (We don’t use bCourses) | . Since all Data 6 material is accessible online, there are no requirements in terms of specific computer hardware. All you need is a laptop with internet and a web browser (Google Chrome or Firefox tend to work best). If you looking to purchase a laptop for college, Prof. Yan put together this helpful guide. Here are a few helpful resources when it comes to technology: . | Read this Berkeley IT website to learn how to connect to the campus WiFi network, Eduroam. | The Student Technology Equity Program provides free laptop loans for students. | . ",
+    "url": "http://localhost:4000/su22/syllabus/#technology-",
+    "relUrl": "/syllabus/#technology-"
+  },"54": {
+    "doc": "Syllabus",
+    "title": "Policies 📑",
+    "content": "Grading . Here’s how we will calculate your final grade: . | Component | Weight | Notes | . | Participation | 15% | Participation in lecture, labs, and discussions | . | In-Class Quick Checks | 5% | Graded on completion, no drops | . | Weekly Surveys | 5% | Graded on completion, no drops | . | Homeworks | 40% | 5 homeworks with 1 homework drop (10% each) | . | Quizzes | 20% | 2 quizzes (10% each) | . | Final Exam | 15% | In-Class on 8/12 | . Participation . Participation is 15% of your final grade, so we expect you to participate during labs and discussion sections. Participation can take a variety of forms, including asking questions, working with peers on problems, volunteering answers, and completing practice problems. You can also get credit for participation by asking questions during lecture, and asking and answering questions on Ed. Weekly Surveys . Each week, we will send out a survey to hear how you’re doing, both academically and personally. We will use survey responses to better support students throughout the semester, identify concepts we need to review, and generally improve the course. The surveys will be anonymous and we encourage you to be honest about how you’re feeling and how you’re doing in the class so we can better support you. Since the surveys are anonymous, if you need individual support (e.g. you are struggling on assignments, you are worried about your performance on a quiz, etc.) we encourage you to send a private message to course staff on Ed. You are also welcome to email us directly. Weekly surveys will be released on the course website at the same time we release homework assignments (on Thursdays) and will be due the following week. There are no drops for surveys but we will be lenient with their deadlines. Homework Drops and Extra Credit . There will be 5 homework assignments, but we will automatically drop your lowest homework assignment score. This means each homework is worth 10% of your overall grade in the class. If you decide to ‘use’ a homework drop for a particular assignment, you don’t have to submit that homework if you don’t want to. But remember that all homeworks cover material that is ‘in scope’ for the final exam, so we still encourage you to work through all of the homework assignments. In order to encourage you to start and finish homework assignments early, you can receive 1 extra credit point (homework bonus point) if you submit your homework by 11PM on Wednesday (24 hours before the regular deadline). We will add this extra credit point to your homework grade. Late Policy and Extensions . Homework assignments are due on Gradescope at 11PM on Thursdays. We will have a small, undisclosed grace period to account for any technical difficulties; if you face any issues while submitting, please post on Ed ASAP (ideally before the deadline). If you submit your homework late and do not have an extension (see below), we will still accept your submission up to two days late with a 30% late penalty per day. So if you scored 90% on a homework and submitted 12 hours after the deadline, your grade for that homework would be 63%. If you submitted 36 hours after the deadline, your grade for that homework would be 36%. We will not accept homeworks past two days after the submission deadline. Extensions: Things happen, and we don’t want to penalize you because of circumstances that are out of your control. To request an extension on a homework, please email both James and Will with the reason for your request and the number of days you are requesting an extension for (maximum of 2 days). As long as your request is within reason, there’s a good chance of it being granted, in which case we will add the extension to your submission on Gradescope. If you require assignment extensions as a DSP accommodations, please see the DSP accommodations process below. Academic Honesty . This may be the first class you take at UC Berkeley, or the first college class you have ever taken — we know that taking your first class can be stressful. But the main point of this class (and of data science in general) is to try things out and learn from your mistakes, not necessarily to get everything right on the first try. This class is designed to encourage you to learn through exploration, so we hope you focus on learning skills that you might use later, instead of focusing on getting a good grade. Data science is a collaborative activity. As such, we encourage you to discuss homework and lab assignments at a high level with other students. With that said, you must write all code and solutions individually in your own words. Rather than copying someone else’s work, ask for help. You are not alone in this course! We’re here to help you succeed, and if you invest the time to learn the materal and complete the assignments, you won’t need to copy any answers (taken from CS 61A). If you use code you found online, please cite it in a comment and briefly explain what the code does. A Note on Letter Grades . The following is adapted from Data 6 Summer 2021 and from CSE 160 at the University of Washington. This class is not curved in the sense that we have set a class average (at, for example, a B+) and require that half of the class receive a grade lower than that. If everyone does well and shows mastery of the material, everyone will receive and A. We will, however, curve to ensure that demonstrating a sufficient understanding and mastery of key concepts will be enough to receive an A in the class. There is no pre-determined score (e.g. 90% of all possible points) that will earn an A or a B or a C or any other grade. To determine final grades, we will ask questions like “Did this student master the material?” and “Did this student show improvement over the course of the class?”. In other words, we may curve up, but will never curve down. Try your best not to worry about grades, and we’ll reciprocate by being fair and lenient. We’re in this together, and we want you to focus on learning, not grades. ",
+    "url": "http://localhost:4000/su22/syllabus/#policies-",
+    "relUrl": "/syllabus/#policies-"
+  },"55": {
+    "doc": "Syllabus",
+    "title": "Accommodations\t🤝",
+    "content": "Everyone learns differently, and supporting each student individually is part of our job as instructors. We will make every effort to accommodate students to ensure that you can learn safely and comfortably. If you have a disability, you can email James (jweichert@berkeley.edu) and Will (willfurtado@berkeley.edu) and we can discuss options for accommodations. You can also communicate with the Disabled Students Program (DSP) to have your DSP specialist send us a letter of accommodation letting us know what accommodations we need to provide. You are not required to talk with us directly about your disability if you wish to work through DSP instead. If you are a first-time student and anticipating DSP accommodations in furture classes, we recommend starting the DSP onboarding process over the summer when DSP is less busy. In past years, the DSP intake process has taken up to four weeks for some students. Once you register with DSP, the process for requesting accommodations in each of your classes is usually much smoother. If you have reached out to DSP but have not heard back yet, we will gladly honor your accommodations while DSP processes your intake. Just let us know! . ",
+    "url": "http://localhost:4000/su22/syllabus/#accommodations-",
+    "relUrl": "/syllabus/#accommodations-"
+  },"56": {
+    "doc": "Syllabus",
+    "title": "Campus Resources 🏫",
+    "content": "Here are some links to campus resources that may also be helpful: . | University Health Services | UHS Counseling and Psychological Services | UC Berkeley Sexual Violence Services | Campus Academic Accommodations Hub | ASUC Student Advocate’s Office | Basic Needs Center | Student Learning Center | . ",
+    "url": "http://localhost:4000/su22/syllabus/#campus-resources-",
+    "relUrl": "/syllabus/#campus-resources-"
+  },"57": {
+    "doc": "Syllabus",
+    "title": "Acknowledgements 🙏",
+    "content": "The Summer 2022 version of Data 6 is based on Data 94, created and taught by Suraj Rampure in Spring 2021 at UC Berkeley, and the Summer 2021 version of Data 6, taught by Ian Castro and Isaac Merritt. Data 6 and Data 94 are loosely based on Data C6, taught by Ian Castro in Summer 2020 at UC Berkeley, which in turn was based on Data 8R, taught by Henry Milner in Summer 2017, also at UC Berkeley. These classes were based on Data 8 at UC Berkeley. For Summer 2022, Professors Lisa Yan and Deborah Nolan have updated some of the curriculum and assignments in collaboration with faculty at Tuskegee University and with help from Will Furtado, Kevin Miao and James Weichert. When creating Data 6, we’ve referred to the materials of several other courses: . | Data 8, CS 10, and CS 61A at UC Berkeley | CS 106A at Stanford | CSE 160 at the University of Washington | . The website uses Just the Class. ",
+    "url": "http://localhost:4000/su22/syllabus/#acknowledgements-",
+    "relUrl": "/syllabus/#acknowledgements-"
+  },"58": {
+    "doc": "Syllabus",
+    "title": "Syllabus",
+    "content": " ",
+    "url": "http://localhost:4000/su22/syllabus/",
+    "relUrl": "/syllabus/"
+  }
+}
