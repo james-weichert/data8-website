@@ -169,6 +169,8 @@ hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #44434d; border:
 @media (min-width: 31.25rem) { .site-title { font-size: 24px !important; line-height: 1.25; } }
 @media (min-width: 50rem) { .site-title { padding-top: 0.5rem; padding-bottom: 0.5rem; } }
 
+.site-logo { width: 100%; height: 100%; background-image: url("http://localhost:4000/data8-website/assets/data8logo.png"); background-repeat: no-repeat; background-position: left center; background-size: contain; }
+
 .site-button { display: flex; height: 100%; padding: 1rem; align-items: center; }
 
 @media (min-width: 50rem) { .site-header .site-button { display: none; } }
@@ -2257,6 +2259,7 @@ figure.highlight pre, figure.highlight code, figure.highlight .code_block { padd
 .announcement .label.label-discussion, .module .label.label-discussion, .announcement .staffer .label-discussion.staffer-pronouns, .staffer .announcement .label-discussion.staffer-pronouns, .module .staffer .label-discussion.staffer-pronouns, .staffer .module .label-discussion.staffer-pronouns, .announcement div.label-discussion.highlighter-rouge[overlay]::after, .module div.label-discussion.highlighter-rouge[overlay]::after { background-color: #7253ed; color: white; }
 .announcement .label.label-exam, .module .label.label-exam, .announcement .staffer .label-exam.staffer-pronouns, .staffer .announcement .label-exam.staffer-pronouns, .module .staffer .label-exam.staffer-pronouns, .staffer .module .label-exam.staffer-pronouns, .announcement div.label-exam.highlighter-rouge[overlay]::after, .module div.label-exam.highlighter-rouge[overlay]::after { background-color: #e7af06; color: white; }
 .announcement .label.label-survey, .module .label.label-survey, .announcement .staffer .label-survey.staffer-pronouns, .staffer .announcement .label-survey.staffer-pronouns, .module .staffer .label-survey.staffer-pronouns, .staffer .module .label-survey.staffer-pronouns, .announcement div.label-survey.highlighter-rouge[overlay]::after, .module div.label-survey.highlighter-rouge[overlay]::after { background-color: #2869e6; color: white; }
+.announcement .label.label-project, .module .label.label-project, .announcement .staffer .label-project.staffer-pronouns, .staffer .announcement .label-project.staffer-pronouns, .module .staffer .label-project.staffer-pronouns, .staffer .module .label-project.staffer-pronouns, .announcement div.label-project.highlighter-rouge[overlay]::after, .module div.label-project.highlighter-rouge[overlay]::after { background-color: #2869e6; color: white; }
 
 .main-content .module h1:first-child, .main-content .module h2:first-child, .main-content .module h3:first-child, .main-content .module h4:first-child, .main-content .module h5:first-child, .main-content .module h6:first-child, .module h1:first-child, .module h2:first-child, .module h3:first-child, .module h4:first-child, .module h5:first-child, .module h6:first-child { margin-top: 1rem; }
 .main-content .module > dl, .module > dl { border-bottom: 1px solid #44434d; border-top: 1px solid #44434d; display: grid; grid-template-columns: max-content 1fr; margin: 0.5rem -1rem; }
@@ -2304,11 +2307,37 @@ figure.highlight pre, figure.highlight code, figure.highlight .code_block { padd
 .staffer .staffer-bio { font-size: 1em; }
 
 @media (min-width: 66.5rem) { .side-bar { width: 248px !important; }
-  .main { margin-left: 264px !important; } }
-@media (min-width: 50rem) { .main { max-width: 100% !important; } }
-.main-content-wrap { max-width: 1000px !important; }
+  .main { margin-left: 264px !important; }
+  .staffer div { max-width: 200px !important; } }
+@media (min-width: 50rem) { .main { max-width: 100% !important; }
+  .site-header { max-height: 150px !important; height: 100% !important; }
+  .staffer div { max-width: 200px !important; } }
+@media (max-width: 50rem) { .site-logo { margin-left: 60px !important; height: 60px !important; } }
+.site-logo { background-position: center !important; }
 
-a { color: #2869e6; }
+.flex { display: flex; flex-wrap: wrap; }
+
+.main-content-wrap { max-width: 1100px !important; margin-left: 20px !important; margin-right: 20px !important; }
+
+.staffer { max-width: 500px !important; font-size: 0.8em !important; }
+
+.pronouns { font-weight: bold !important; display: inline-block; padding-top: 0.16em; padding-bottom: 0.16em; padding-left: 0.56em; padding-right: 0.56em; font-size: 0.8em; text-transform: uppercase; vertical-align: middle; border-radius: 12px; background-color: #ecebed; }
+
+.staffer img { max-width: 90px !important; max-height: 90px !important; }
+
+/*#menu-button { height: 60px !important; margin-top: -60px !important; float: right !important;
+}
+
+.site-header { display: block !important;
+}
+
+.site-title { width: 90vw !important;
+}*/
+a { color: #2869e6 !important; }
+
+.main-content .anchor-heading svg { color: #2869e6 !important; }
+
+.icon { color: #2869e6 !important; }
 
 a abbr[title] { border-bottom: none; }
 

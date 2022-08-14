@@ -13,24 +13,104 @@
 @media (min-width: 66.5rem) {
   .side-bar { width: 248px !important;}
   .main { margin-left: 264px !important;}
+
+  .staffer div {
+    max-width: 200px !important;
+  }
+
 }
 
 @media (min-width: 50rem) {
   .main { max-width: 100% !important;}
+
+  .site-header {
+    max-height: 150px !important;
+    height: 100% !important;
+  }
+
+  .staffer div {
+    max-width: 200px !important;
+  }
+
 }
 
-.side-bar {width: 0px !important;}
+@media (max-width: 50rem) {
+  .site-logo {
+    margin-left: 60px !important;
+    height: 60px !important;
+  }
+}
+
+.site-logo {
+  background-position: center !important;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .main-content-wrap {
-  max-width: 1000px !important;
+  max-width: 1100px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important
 }
+
+.staffer {
+  max-width: 500px !important;
+  font-size: 0.8em !important;
+}
+
+.pronouns {
+  font-weight: bold !important;
+  display: inline-block;
+  padding-top: 0.16em;
+  padding-bottom: 0.16em;
+  padding-left: 0.56em;
+  padding-right: 0.56em;
+
+  font-size: 0.8em;
+
+  text-transform: uppercase;
+  vertical-align: middle;
+  border-radius: 12px;
+
+  background-color: #ecebed;
+}
+
+.staffer img {
+  max-width: 90px !important;
+  max-height: 90px !important;
+}
+
+
+/*#menu-button {
+  height: 60px !important;
+  margin-top: -60px !important;
+  float: right !important;
+}
+
+.site-header {
+  display: block !important;
+}
+
+.site-title {
+  width: 90vw !important;
+}*/
 
 // COLORS
 
 a {
-  color: $blue-100;
+  color: $blue-100 !important;
 }
 
+.main-content .anchor-heading svg {
+  color: $blue-100 !important;
+}
+
+.icon {
+  color: $blue-100 !important;
+}
 // Overrides
 a abbr[title] {
   border-bottom: none;
