@@ -6,7 +6,7 @@ description: >-
     Resources
 ---
 
-# Resources	&#x1F4DA;
+# Resources
 {:.no_toc}
 
 ## Table of contents
