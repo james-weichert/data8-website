@@ -29,16 +29,10 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  FAQ:
-    - ''
   Office Hours:
-    - ''
-  Policies:
-    - 'Staff'
-  Resources:
-    - ''
+    - './officehours/'
   Ed:
-    - 'https://edstem.org/us/courses/22794/discussion/'
+    - ''
 footer_content:
 
 # Collections for website data

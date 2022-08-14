@@ -7,7 +7,6 @@ description: >-
 ---
 
 # Policies
-
 {:.no_toc}
 
 ## Table of Contents
@@ -30,7 +29,7 @@ Our primary text is an online book called [Computational and Inferential Thinkin
 The computing platform for the course is hosted at [data8.datahub.berkeley.edu](file:///Users/jweichert/Desktop/Data%208/data-8.github.io/fa22/data8.datahub.berkeley.edu). Students find it convenient to use their own computer for the course. If you do not have adequate access to a personal computer, we have machines available for you; please contact your lab TA.
 
 ## Support
-You are not alone in this course; the staff and instructors are here to support you as you learn the material. It's expected that some aspects of the course will take time to master, and the best way to master challenging material is to ask questions. For questions, use Ed. We will also hold [in-person and virtual office hours](./officehours/) for real-time discussions.
+You are not alone in this course; the staff and instructors are here to support you as you learn the material. It's expected that some aspects of the course will take time to master, and the best way to master challenging material is to ask questions. For questions, use Ed. We will also hold [in-person and virtual office hours](../officehours/) for real-time discussions.
 
 Your lab TA will be your main point of contact for all course related questions/grade clarifications. The TAs are here to support you so please lean on your lab TA if you need more support in the class or have any questions/concerns.
 
