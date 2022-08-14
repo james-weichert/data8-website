@@ -11,5 +11,5 @@ Announcements are stored in the `_announcements` directory and rendered accordin
 
 {% assign announcements = site.announcements | reverse %}
 {% for announcement in announcements limit:1 %}
-{{ announcements }}
+  {{ announcements }}
 {% endfor %}
