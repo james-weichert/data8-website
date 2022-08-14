@@ -37,9 +37,7 @@ UC Berkeley, Fall 2022
 
 ### Darkmode Test
 
-<form>
-  <button class="js-toggle-dark-mode">Darkmode</button>
-</form>
+<button class="js-toggle-dark-mode">Darkmode</button>
 
 
 <script>
