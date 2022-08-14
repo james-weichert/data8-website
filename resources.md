@@ -9,7 +9,7 @@ description: >-
 # Resources
 {:.no_toc}
 
-## Table of contents
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
