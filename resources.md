@@ -19,6 +19,14 @@ description: >-
 
 ## Materials
 
+### Guides
+
+### Table Resources
+
 ## Exam Resources
+
+### Study Guides
+
+### Past Exams
 
 ## Supplemental Videos
