@@ -33,3 +33,18 @@ UC Berkeley, Fall 2022
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
+
+
+### Darkmode Test
+
+<form>
+  <button onclick="darkMode()">Darkmode</button>
+</form>
+
+  function darkMode() {
+    jtd.setTheme("dark");
+  }
+
+<script>
+
+</script>
