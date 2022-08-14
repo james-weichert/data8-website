@@ -5,54 +5,17 @@ description: >-
     Python Reference Guide
 ---
 
-# Python Reference &#x1F40D;
-{:.no_toc}
+# Python Reference
+Created by Nishant Kheterpal and Jessica Hu
 
-## Table of contents
-{: .no_toc .text-delta }
+## Table Functions and Methods
+In the examples in the left column, np refers to the NumPy module, as usual. Everything else is a function, a method, an example of an argument to a function or method, or an example of an object we might call the method on. For example, tbl refers to a table, array refers to an array, and num refers to a number. array.item(0) is an example call for the method item, and in that example, array is the name previously given to some array.
 
-1. TOC
-{:toc}
-
----
-
-## Understanding the Python Reference
-
-If you're new to reading documentation, looking at the Data 6 Python Reference might feel a little overwhelming, but don't worry — the point of this class is *not* to memorize all of these functions or their arguments. For exams and quizzes, you will be provided with a reference sheet that contains all of the functions you may need on the exam.
-
-However, we do expect you to understand how to use the Python Reference to understand new functions, and to help with debugging when things go wrong. Learning how to read and understand documentation is a key to becoming a good data scientist. In fact, even course staff continue to use the Python Reference to refresh their memory about certain functions.
-
-Of course, the Python Reference can only provide information about the basics of the functions you'll use in Data 6. The best knowledge about functions comes from using these functions in code you write in labs or homeworks. If you get stuck when using a certain function, we encourage you to come to office hours or ask a question on [Ed](https://edstem.org/us/courses/22794/discussion/).
-
-### The Anatomy of a Function
-
-<div class="code_block">
-<span class="control">def</span> <span class="func">my_function</span>(num):<br>
-    <span class="indent"><span class="control">return</span> num <span class="op">**</span> <span class="num">3</span></span>
-</div>
-
-In the function above, `my_function` is the name of the function, which takes one argument called `num`. The data type of the input is an **int** or **float**, and the function returns the number raised to the power 3, which is also an **int** or **float**.
-
-### How to Read These Tables
-
-* The **Function** column tells you how to call the function and what arguments it accepts. Everything written in `this font` is code or refers to a particular argument in the function (e.g. `num` in `np.sqrt(num)`).
-* The **Description** column gives you a brief description of what the function does, including what each argument is used for
-* The **Input** column tells you what data type each argument needs to be. If you're getting a `TypeError`, it might be because your inputs are of the wrong type. Data types are indicated in bold (e.g. **string** or **Table**).
-* The **Output** column tells you what the function returns and what data type it is.
-
-<hr>
-
-## Built-In Python Functions
-
-| **Function** | **Description** | **Input** | **Output** |
-| `str(val)` | Converts `val` to a string | A value of any type (**int**, **float**, **NoneType**, etc.) | The value as a **string** |
-| `int(num)` | Converts `num` to an int | A numerical value (represented as a **string** or **float**) | The value as an **int** |
-| `float(num)` | Converts `num` to a float | A numerical value (represented as a **string** or **int**) | The value as a **float** |
-| `len(arr)` | Returns the length of `arr` | **array** or **list** | **int**: the length of the array or list |
-| `max(arr)` | Returns the maximum value in `arr` | **array** or **list** | The maximum value the array (usually an **int**) |
-| `min(arr)` | Returns the minimum value in `arr` | **array** or **list** | The minimum value the array (usually an **int**) |
-| `sum(arr)` | Returns the sum of the values in `arr` | **array** or **list** | **int** or **float**: the sum of the values in the array |
-| `abs(num)` | Returns the absolute value of `num` | **int** or **float** | **int** or **float** |
+| **Name** | **Chapter** | **Description** | **Input** | **Output** |
+| `Table()` | 6 | 	Create an empty table, usually to extend with data | None | An empty **Table** |
+| `Table().read_table(filename)` | 6 | Create a table from a data file | **string**: the name of the file | 	**Table** with the contents of the data file |
+| `tbl.with_columns(name, values)` <br> `tbl.with_columns(n1, v1, n2, v2,...)` | 6 | A table with an additional or replaced column or columns. `name` is a string for the name of a column, `values` is an array | 1. **string**: the name of the new column; <br> 2. **array**: the values in that column | **Table**: a copy of the original Table with the new columns added |
+| `tbl.column(column_name_or_index)` | 6 | The values of a column (an array) | **string** or **int**: the column name or index | **array**: the values in that column |
 
 ## NumPy Array Functions
 
