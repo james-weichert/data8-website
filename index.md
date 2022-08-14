@@ -41,10 +41,9 @@ UC Berkeley, Fall 2022
   <button onclick="darkMode()">Darkmode</button>
 </form>
 
-  function darkMode() {
-    jtd.setTheme("dark");
-  }
 
 <script>
-
+function darkMode() {
+  jtd.setTheme("dark");
+}
 </script>
