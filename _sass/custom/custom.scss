@@ -85,6 +85,23 @@
 
 .team {
   font-weight: bold !important;
+  display: inline-block;
+  padding-top: 0.16em;
+  padding-bottom: 0.16em;
+  padding-left: 0.56em;
+  padding-right: 0.56em;
+
+  font-size: 0.8em;
+
+  text-transform: uppercase;
+  vertical-align: middle;
+  border-radius: 6px;
+
+}
+
+.label-Scholars {
+  background-color: #A4A8D1;
+  color: white;
 }
 
 /*#menu-button {
