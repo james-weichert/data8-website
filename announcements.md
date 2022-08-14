@@ -10,7 +10,6 @@ description: A feed containing all of the class announcements.
 Announcements are stored in the `_announcements` directory and rendered according to the layout file, `_layouts/announcement.html`.
 
 {% assign announcements = site.announcements | reverse %}
-{% for announcement in announcement %}
+{% for announcement in announcements limit:1 %}
 {{ announcements }}
-{% break %}
 {% endfor %}
