@@ -54,7 +54,7 @@ Regardless of the option you choose, labs will have two components: a worksheet 
 
 For all students, the lab component will comprise 10% of the final grade. Lab assignments will be **released on Monday night each week**.
 
-#### Regular Lab
+**Regular Lab**
 Regular labs will be two hours long; the first and second hour will be dedicated to the discussion worksheet and lab notebook, respectively. Regular sections will have no more than 30 students enrolled. Attendance is mandatory, although you will receive **two lab drops** to use throughout the semester. You must email your GSI informing them of your absence _one hour prior to your lab time to use a lab drop_.
 
 In order to get credit for each lab assignment, you must:
@@ -67,7 +67,7 @@ You will need to submit your lab to Gradescope, but the autograder results will 
 
 Regular lab sessions will not be webcast and are not recorded.
 
-#### Mega Lab
+**Mega Lab**
 Mega labs will be one hour long; the entire section will be dedicated to the discussion worksheet. Sections may have **up to 250 students enrolled**. As such, **attendance is optional**. Students who opt for a mega lab will receive **two lab drops** to use throughout the semester. You do not need to take any action to use a lab drop; they will be applied at the end of the semester.
 
 In order to get credit for each lab assignment, you must:
