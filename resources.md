@@ -21,6 +21,12 @@ description: >-
 
 ### Guides
 * [Arrays Primer](https://drive.google.com/file/d/1fJzp0HGj7sehDYMfZNUu6qrD7xoiZTrA/view?usp=sharing)
+* [Tabular Thinking](https://drive.google.com/file/d/1ncT6mP_-5UYx1F21_iDsVQVyWJjbE4l8/view?usp=sharing)
+* [Coding](https://drive.google.com/file/d/19ydn1pUwNQkpudAkMcW5btHLg1NDRFqv/view?usp=sharing)
+* [Random Functions](https://drive.google.com/file/d/1_kkBJhbS_OPEhUTSogL4syaVHkbyzKSf/view?usp=sharing)
+* [Confidence Intervals](https://drive.google.com/file/d/1qM6eK7LGeJN3Zp_QGNn_MneFsLRbAZ0h/view?usp=sharing)
+* [Linear Regression](https://drive.google.com/file/d/1Q9_f8qanJeSU6gv2UDlgsnozYbamfj9M/view?usp=sharing)
+* [Residual Properties](https://drive.google.com/file/d/11_Pg9rLp39xq7r1CY8ffaytnQa2-52T8/view?usp=sharing)
 
 ### Table Resources
 * [Table Function Visualizer](http://data8.org/interactive_table_functions/)
