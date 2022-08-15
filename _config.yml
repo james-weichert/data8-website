@@ -30,7 +30,7 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Office Hours:
-    - './officehours/'
+    - '../officehours/'
   Ed:
     - ''
 footer_content:
