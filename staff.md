@@ -26,6 +26,8 @@ description: Data 8 Fall 2022 Staff
 
 ## Teaching Assistants (GSIs)
 
+Coming Soon!
+
 {% assign teaching_assistants = site.staffers | where: 'role', 'GSI' %}
 <div class="role flex">
 {% for staffer in tutors %}
@@ -34,6 +36,8 @@ description: Data 8 Fall 2022 Staff
 </div>
 
 ## Tutors
+
+Coming Soon!
 
 {% assign tutors = site.staffers | where: 'role', 'Tutor' %}
 <div class="role flex">
