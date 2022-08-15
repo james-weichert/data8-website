@@ -15,14 +15,6 @@ seo:
 UC Berkeley, Fall 2022
 {: .mb-2 .fs-6 .text-grey-dk-000 }
 
-{: .mb-2 }
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-<div class="role flex">
-  {% for staffer in instructors %}
-  {{ staffer }}
-  {% endfor %}
-</div>
-
 ## Announcements
 
 {% assign announcements = site.announcements | reverse %}
